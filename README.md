@@ -24,24 +24,6 @@ Where ‘T’ is the number of test cases.
 
 Where ‘|S|’ is the length of a particular string.
 
-Sample Input 1
-2
-ab(cd)(e)
-(zyz)
-Sample Output 1
-1 1 2 2
-1 1
-Explanation Of Sample Input 1
-Test Case 1: In the given string, there are two pairs of brackets and the order is 1 1 2 2.
-
-Test Case 2: There is only one pair of brackets. So the number of brackets is 1 1.
-Sample Input 2
-2
-(  ( ) ) ( )
-a ( b ( pq )( t ) )
-Sample Output 2
-1 2 2 1 3 3
-1 2 2 3 3 1
 
 ## Problem 2: Median of Two Sorted Arrays (Leetcode) (Hard)
 
@@ -54,17 +36,6 @@ Example 1:
 Input: nums1 = [1,3], nums2 = [2]
 Output: 2.00000
 Explanation: merged array = [1,2,3] and median is 2.
-
-Example 2:
-
-Input: nums1 = [1,2], nums2 = [3,4].
-Output: 2.50000.
-Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
-
-Example 3:
-
-Input: nums1 = [], nums2 = [1]
-Output: 1.00000
 
 #### Constraints:
 1. nums1.length == m
@@ -106,28 +77,3 @@ Where |A| and |B| denote the length of string, A and B respectively.
 All the characters of the string A and B contain lowercase English letters only.
 
 **Time limit: 1 second**
-
-#### Sample Input 1:
-2
-abc 
-def
-sorry
-personal
-#### Sample Output 1:
-0
-3
-#### Explanation For Sample 1:
-For the first test case, the common prefix of A and B is “”.
-After one left shift, the string B becomes “efd”, now the common prefix is again “”.
-After two left shifts, the string B becomes “fde”, now the common prefix is again “”.
-Here the length of the longest common prefix is 0, as there is no common prefix in all the cases. So we get the longest common prefix without performing any shifts. Hence, the answer is 0.
-For the second test case, the common prefix of A and B is “”.
-After one left shift, the string B becomes “ersonalp”, now the common prefix is “”.
-After two left shifts, the string B becomes “rsonalpe”, now the common prefix is “”.
-After three left shifts, the string B becomes “sonalper”, now the common prefix is “so”.
-After four left shifts, the string B becomes “onalpers”, now the common prefix is “”.
-After five left shifts, the string B becomes “nalperso”, now the common prefix is “”.
-After six left shifts, the string B becomes “alperson”, now the common prefix is “”.
-After seven left shifts, the string B becomes “lpersona”, now the common prefix is “”.
-
-So after three left shifts, we get the longest common prefix i.e. “so”. Hence, the answer is 3.
