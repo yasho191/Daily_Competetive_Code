@@ -175,5 +175,53 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 - Given an integer, convert it to a roman numeral.
 
 #### Constraints:
-- 1 <= num <= 3999 
+- 1 <= num <= 3999
 
+## Problem 8: Pair Sum Coding Ninjas (Easy)-[Problem Link](https://www.codingninjas.com/codestudio/problems/pair-sum_697295?leftPanelTab=0)
+
+#### Problem Statement
+You are given an integer array 'ARR' of size 'N' and an integer 'S'. Your task is to return the list of all pairs of elements such that each sum of elements of each pair equals 'S'.
+
+**Note: Each pair should be sorted i.e the first value should be less than or equals to the second value.**
+
+Return the list of pairs sorted in non-decreasing order of their first value. In case if two pairs have the same first value, the pair with a smaller second value should come first.
+
+#### Input Format:
+- The first line of input contains two space-separated integers 'N' and 'S', denoting the size of the input array and the value of 'S'.
+- The second and last line of input contains 'N' space-separated integers, denoting the elements of the input array: ARR[i] where 0 <= i < 'N'.
+
+#### Output Format:
+- Print 'C' lines, each line contains one pair i.e two space-separated integers, where 'C' denotes the count of pairs having sum equals to given value 'S'.
+
+**Note: You are not required to print the output, it has already been taken care of. Just implement the function.**
+
+#### Constraints:
+1. 1 <= N <= 10^3
+2. -10^5 <= ARR[i] <= 10^5
+3. -2 * 10^5 <= S <= 2 * 10^5
+
+**Time Limit: 1 sec**
+
+## Problem 9: Reverse Level Order Traversal (Medium)-[Problem Link](https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/content/118521/offering/1380977?leftPanelTab=0)
+
+#### Problem Statement
+You have been given a Binary Tree of integers. You are supposed to return the reverse of the level order traversal.
+
+#### Input Format:
+The first line contains elements in the level order form. The line consists of values of nodes separated by a single space. In case a node is null, we take -1 in its place.
+
+The first not-null node(of the previous level) is treated as the parent of the first two nodes of the current level. The second not-null node (of the previous level) is treated as the parent node for the next two nodes of the current level and so on.
+
+The input ends when all nodes at the last level are null(-1).
+
+#### Output Format:
+Print all the nodes in reverse level order traversal separated by a single space.
+**Note :You do not need to print anything; it has already been taken care of. Just implement the given function.**
+
+#### Constraints:
+1. 0 <= N <= 5 * 10^5
+2. 0 <= data <= 10^5 and data != -1
+
+Where ‘N’ is the total number of nodes in the binary tree, and 'data' is the value of the binary tree node.
+
+**Time Limit: 1 sec**
