@@ -225,3 +225,26 @@ Print all the nodes in reverse level order traversal separated by a single space
 Where ‘N’ is the total number of nodes in the binary tree, and 'data' is the value of the binary tree node.
 
 **Time Limit: 1 sec**
+
+## Problem 10: Buy and Sell Stocks Coding Ninjas (Medium)-[Problem Link](https://www.codingninjas.com/codestudio/problems/buying-and-selling-stock_1790233?leftPanelTab=0)
+
+#### Problem Statement
+You have been given the prices of 'N' stocks in an array where each array element represents the stock price for that day. You need to find the maximum profit which you can make by buying and selling the stocks. You may make as many transactions as you want but can not have more than one transaction at a time i.e, if you have the stock, you need to sell it first, and then only you can buy it again.
+
+#### Constraints :
+1. 1 <= t <= 10^2
+2. 0 <= N <= 10^5
+**Time Limit: 1 sec**
+
+## Problem 11: Postfix to Prefix Coding Ninjas (Easy)-[Problem Link](https://www.codingninjas.com/codestudio/problems/postfix-to-prefix_1788455?leftPanelTab=0)
+
+#### Problem Statement
+Ninja has been given a Postfix expression and he needs your help in converting it to Prefix expression.
+- Postfix expression is an expression where the operator appears in the expression after the operands. Simply of the form (operand1 operand2 operator)
+- Prefix expression is an expression where the operator appears in the expression before the operands. Simply of the form (operator operand1 operand2)
+
+#### Constraints:
+1. 1 <= T <= 5
+2. 1 <= |S| <= 10^5
+
+**Timit Limit: 1 sec**
