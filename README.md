@@ -248,3 +248,78 @@ Ninja has been given a Postfix expression and he needs your help in converting i
 2. 1 <= |S| <= 10^5
 
 **Timit Limit: 1 sec**
+
+## Problem 12: Longest Common Prime Subsequence Coding Ninjas (Medium)-[Problem Link](https://www.codingninjas.com/codestudio/problems/longest-common-prime-subsequence_1789451?leftPanelTab=0)
+
+#### Problem Statement
+Ninja got a very long summer vacation. Being very bored and tired about it, he indulges himself in solving some puzzles.
+
+He encountered a problem in which he was given two arrays of integers of length ‘N’ and ‘M’ respectively and he had to find the longest common prime subsequence.
+Ninja wants help in solving the problem as he is not getting the approach so he approaches you as he knows that you are very good at building logics. Help Ninja!
+
+**Note: A subsequence is a sequence that can be derived from another sequence by zero or more elements, without changing the order of the remaining elements.**
+
+#### Constraints:
+1. 1 <= T <= 5
+2. 1 <= N, M <= 5 * (10 ^ 2)
+3. 1 <= arr1[i], arr2[i] <= 300
+
+Where arr1[i], arr2[i] represents ith element of arr1 and arr2 respectively.
+
+**Time Limit: 1 sec.**
+
+## Problem 13: Game of 3 Coding Ninjas (Easy)-[Problem Link](https://www.codingninjas.com/codestudio/problems/game-of-3_1868996?leftPanelTab=0)
+
+#### Problem Statement
+The Ultimate Ninja Ankush was bored, so his friend Ninja Nikhil decided to give him a puzzle to keep him entertained. Nikhil gave Ankush ‘N’ integers and asked how many groups of sizes 2 and 3 can be formed such that the sum of the group is divisible by 3. Although the Ultimate Ninja Ankush is brilliant, some extra help is always appreciated. Can you help The ultimate ninja Ankush with this so that he can prove to Nikhil that he, in fact, is the ultimate ninja?
+
+More formally, Given an array of size ‘N’, we can form a group of two or three. The group should be such that the sum of all elements in that group is a multiple of 3. Count all possible numbers of groups that can be generated in this way.
+
+#### Constraints:
+1. 1 <= ‘T’ <= 10
+2. 1 <= ‘N’ <= 5000
+3. 0 <= ‘ARR[i]’ <= 10 ^ 4
+
+**Time Limit: 1sec.**
+
+## Problem 14: Maximum Width of a Tree Coding Ninjas (Medium)-[Problem Link](https://www.codingninjas.com/codestudio/problems/maximum-width-in-binary-tree_763671?topList=top-trees-interview-questions&leftPanelTab=0)
+
+#### Problem Statement
+You have been given a Binary Tree of integers. You are supposed to return the maximum width of the given Binary Tree. The maximum width of the tree is the maximum width among all the levels of the given tree.
+
+The width of one level is defined as the length between the leftmost and the rightmost, non-null nodes in the level, where the null nodes in between the leftmost and rightmost are excluded into length calculation.
+
+#### Constraints:
+1. 0 <= 'N' <= 5 * 10 ^ 5
+2. 0 <= 'DATA' <= 10 ^ 6 and data != -1
+Where ‘N’ is the total number of nodes in the binary tree, and 'DATA' is the value of the binary tree node.
+
+**Time Limit: 1sec.**
+
+## Problem 15: Binary Tree Pruning Coding Ninjas (Medium)-[Problem Link](https://www.codingninjas.com/codestudio/problems/binary-tree-pruning_699987?topList=top-trees-interview-questions&leftPanelTab=1)
+
+#### Problem Statement
+You have been given a Binary Tree where the value of each node is either 0 or 1. Your task is to return the same Binary Tree but all of its subtrees that don't contain a 1 have been removed.
+
+**Note :A subtree of a node X is X, plus every node that is a descendant of X.**
+
+#### Constraints :
+1. 1 <= T <= 10^2
+2. 0 <= N <= 10^3
+3. 0 <= data <= 1
+
+Where 'N' is the number of nodes in the tree and 'data' is the value of nodes.
+
+**Time Limit: 1 sec**
+
+## Problem 16: Tree Symmetricity Coding Ninjas (Easy)-[Problem Link](https://www.codingninjas.com/codestudio/problems/tree-symmetricity_630426?topList=top-trees-interview-questions&leftPanelTab=0)
+
+#### Problem Statement
+You are given a binary tree, where the data present in each node is an integer. You have to find whether the given tree is symmetric or not.
+Symmetric tree is a binary tree, whose mirror image is exactly the same as the original tree.
+
+#### Constraints:
+1. 0 <= N <= 10^5
+2. 1 <= A <= 10^5
+
+**Time limit: 1sec**
